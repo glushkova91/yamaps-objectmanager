@@ -1,0 +1,56 @@
+/* CSS Reset section */
+html { width: 100%; height: 100%; margin: 0; padding: 0; font-size: 100.01%; min-height: 580px; }
+
+body { height: 100%; margin: 0; padding: 0; font-size: 12px; line-height: 1.2; font-family: Arial, Helvetica, sans-serif; background-repeat: no-repeat; background-position: 50% 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+ol, ul { list-style: none; margin: 0; padding: 0; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+img { border: 0; }
+
+a, a:focus, a img, a img:focus { border: 0 none; }
+
+a, a img, textarea, input { outline: 0 none; }
+
+a:focus { outline: thin dotted; }
+
+a { color: white; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 0; }
+
+p { margin: 0; }
+
+dl, dt, dd { margin: 0; }
+
+textarea { overflow: auto; }
+
+/* mixins */
+.clearfix:before { content: ""; display: table; }
+.clearfix:after { content: ""; display: table; clear: both; }
+
+body { font-family: 'PT Sans', sans-serif; }
+
+.wrapper { width: 100%; min-height: 100%; position: relative; height: auto !important; background-color: #2e3138; }
+
+.website { position: relative; height: 100%; width: 100%; padding-top: 30px; }
+
+#map { width: 700px; height: 500px; margin: 0 auto; }
+
+.objects-wrap { width: 700px; height: 300px; overflow-y: scroll; margin: 30px auto; background-color: white; color: darkgreen; font-size: 15px; padding: 10px 0 10px 15px; box-sizing: border-box; }
+
+.objects-wrap__item { margin-bottom: 7px; }
+
+.baloon-custom { position: absolute; background-color: #ffffff; -webkit-border-radius: 10px; -moz-border-radius: 0.64rem; border-radius: 25px; padding: 25px; width: 246px; box-sizing: border-box; border: 3px solid #ee3124; }
+
+.baloon-custom-close { display: block; width: 11px; height: 13px; position: absolute; color: red; top: 15px; right: 15px; cursor: pointer; }
+
+.baloon-custom-content { width: 190px; color: #737373; font-size: 12px; }
+
+.baloon-custom-content .title { font-size: 16px; font-family: 'aFuturaRoundBold', sans-serif; margin-bottom: 12px; }
+
+.baloon-custom-content .time-span { font-weight: bold; font-family: Myriad Pro, Arial; }
+
+.baloon-custom-content .time { margin-bottom: 8px; }
